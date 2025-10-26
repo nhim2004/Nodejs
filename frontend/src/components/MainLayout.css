@@ -1,0 +1,36 @@
+/* src/components/MainLayout.css */
+.main-layout-container {
+  display: flex;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: calc(100vh - 80px); /* Trừ chiều cao Header */
+}
+
+.sidebar {
+  flex: 0 0 280px;
+  position: sticky;
+  top: 80px; /* Dưới Header */
+  height: fit-content;
+  align-self: flex-start;
+}
+
+.main-content {
+  flex: 1;
+  background: #f9fafb;
+  min-height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .main-layout-container {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .sidebar {
+    flex: none;
+    position: static;
+    top: auto;
+  }
+}

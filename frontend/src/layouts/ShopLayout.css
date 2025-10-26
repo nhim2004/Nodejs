@@ -1,0 +1,23 @@
+.shop-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.shop-layout .sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.shop-layout .shop-content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .shop-layout {
+    flex-direction: column;
+  }
+
+  .shop-layout .sidebar {
+    width: 100%;
+  }
+}

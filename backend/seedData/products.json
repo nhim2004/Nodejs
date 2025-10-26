@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Dell Inspiron 15 3520",
+    "image": "/images/dell-inspiron.jpg",
+    "description": "Intel Core i5-1235U, RAM 8GB, SSD 512GB, 15.6\" FHD",
+    "category": "Laptop văn phòng",
+    "price": 14990000,
+    "countInStock": 15,
+    "rating": 4.5,
+    "numReviews": 12
+  },
+  {
+    "name": "HP 240 G9",
+    "image": "/images/hp-240.jpg",
+    "description": "Intel Core i3-1215U, RAM 8GB, SSD 256GB, 14\" HD",
+    "category": "Laptop văn phòng",
+    "price": 12990000,
+    "countInStock": 20,
+    "rating": 4.2,
+    "numReviews": 8
+  },
+  {
+    "name": "Keychron K2 Wireless",
+    "image": "/images/keychron-k2.jpg",
+    "description": "Switch Gateron Brown, Bluetooth, RGB, Aluminum Frame",
+    "category": "Bàn phím cơ",
+    "price": 2190000,
+    "countInStock": 30,
+    "rating": 4.8,
+    "numReviews": 45
+  },
+  {
+    "name": "Ducky One 3 SF",
+    "image": "/images/ducky-one3.jpg",
+    "description": "Cherry MX Red, 65%, Hot-swap, PBT Keycaps",
+    "category": "Bàn phím cơ",
+    "price": 3290000,
+    "countInStock": 10,
+    "rating": 4.9,
+    "numReviews": 32
+  },
+  {
+    "name": "Apple Magic Keyboard",
+    "image": "/images/magic-keyboard.jpg",
+    "description": "Wireless, Lightning Charge, Scissor Switch",
+    "category": "Bàn phím Apple",
+    "price": 2790000,
+    "countInStock": 25,
+    "rating": 4.7,
+    "numReviews": 28
+  },
+  {
+    "name": "HP ProDesk 400 G9",
+    "image": "/images/hp-prodesk.jpg",
+    "description": "i5-12500, 8GB RAM, 512GB SSD, Win 11 Pro",
+    "category": "Máy tính bàn",
+    "price": 18990000,
+    "countInStock": 8,
+    "rating": 4.6,
+    "numReviews": 15
+  },
+  {
+    "name": "Custom Gaming PC RGB",
+    "image": "/images/gaming-pc.jpg",
+    "description": "Ryzen 7 5800X, RTX 3070, 32GB RAM, 1TB NVMe",
+    "category": "Máy tính bàn",
+    "price": 42990000,
+    "countInStock": 5,
+    "rating": 5.0,
+    "numReviews": 20
+  },
+  {
+    "name": "Dell OptiPlex 7000",
+    "image": "/images/dell-optiplex.jpg",
+    "description": "i7-12700, 16GB RAM, 512GB SSD, Compact Design",
+    "category": "PC đồng bộ",
+    "price": 25990000,
+    "countInStock": 12,
+    "rating": 4.4,
+    "numReviews": 10
+  },
+  {
+    "name": "Dell Precision 3660",
+    "image": "/images/dell-precision.jpg",
+    "description": "Xeon W-1370, Quadro RTX A4000, 64GB RAM",
+    "category": "PC Workstation & Server",
+    "price": 58990000,
+    "countInStock": 3,
+    "rating": 4.9,
+    "numReviews": 7
+  },
+  {
+    "name": "RAM Corsair Vengeance 32GB",
+    "image": "/images/corsair-ram.jpg",
+    "description": "DDR4 3200MHz, 2x16GB, RGB PRO",
+    "category": "Linh kiện máy tính",
+    "price": 3290000,
+    "countInStock": 40,
+    "rating": 4.8,
+    "numReviews": 55
+  },
+  {
+    "name": "SSD Samsung 980 PRO 1TB",
+    "image": "/images/samsung-ssd.jpg",
+    "description": "NVMe M.2, 7000MB/s Read, PCIe 4.0",
+    "category": "Linh kiện máy tính",
+    "price": 3990000,
+    "countInStock": 35,
+    "rating": 4.9,
+    "numReviews": 60
+  },
+  {
+    "name": "Màn hình Dell U2723QE",
+    "image": "/images/dell-u2723.jpg",
+    "description": "27\" 4K IPS, USB-C Hub, 98% DCI-P3",
+    "category": "Màn Hình Máy Tính",
+    "price": 12990000,
+    "countInStock": 20,
+    "rating": 4.7,
+    "numReviews": 25
+  },
+  {
+    "name": "Logitech G502 HERO",
+    "image": "/images/g502.jpg",
+    "description": "25K DPI, 11 nút, RGB, Wireless Option",
+    "category": "Gaming Gear",
+    "price": 1390000,
+    "countInStock": 50,
+    "rating": 4.8,
+    "numReviews": 80
+  },
+  {
+    "name": "Razer BlackShark V2",
+    "image": "/images/razer-headset.jpg",
+    "description": "THX 7.1, Triforce Titanium, USB DAC",
+    "category": "Gaming Gear",
+    "price": 2190000,
+    "countInStock": 30,
+    "rating": 4.6,
+    "numReviews": 40
+  },
+  {
+    "name": "Máy in HP Laser 107w",
+    "image": "/images/hp-printer.jpg",
+    "description": "In laser trắng đen, WiFi, 20ppm",
+    "category": "Thiết bị văn phòng",
+    "price": 3290000,
+    "countInStock": 18,
+    "rating": 4.3,
+    "numReviews": 22
+  },
+  {
+    "name": "Túi chống sốc RIVACASE 15.6\"",
+    "image": "/images/rivacase-bag.jpg",
+    "description": "Chống sốc, chống nước, nhiều ngăn",
+    "category": "Phụ kiện laptop",
+    "price": 790000,
+    "countInStock": 60,
+    "rating": 4.5,
+    "numReviews": 35
+  }
+]

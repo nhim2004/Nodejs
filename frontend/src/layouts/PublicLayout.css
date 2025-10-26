@@ -1,0 +1,16 @@
+.public-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.public-layout .main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .public-layout .main-content {
+    padding: 1rem;
+  }
+}
