@@ -1,4 +1,14 @@
 {
+  "name": "laptopshop",
+  "version": "1.0.0",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "start-backend": "cd backend && node server.js",
+    "heroku-postbuild": "npm run install-backend && npm run install-frontend && npm run build-frontend",
+    "start": "npm run start-backend"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "bcryptjs": "^3.0.2",
