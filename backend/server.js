@@ -47,7 +47,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
   maxAge: 86400 // 24 hours
-});
+}));
 
 // Apply rate limiting to all API routes
 // app.use('/api/', apiLimiter);
