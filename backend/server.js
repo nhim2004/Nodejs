@@ -15,7 +15,7 @@ import couponRoutes from "./routes/couponRoutes.js";
 import inventoryRoutes from "./routes/inventoryRoutes.js";
 import notificationRoutes from "./routes/notificationRoutes.js";
 
-import { apiLimiter } from "./middleware/rateLimiter.js";
+// import { apiLimiter } from "./middleware/rateLimiter.js";
 
 dotenv.config();
 
@@ -47,10 +47,10 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
   maxAge: 86400 // 24 hours
-}));
+});
 
 // Apply rate limiting to all API routes
-app.use('/api/', apiLimiter);
+// app.use('/api/', apiLimiter);
 
 app.use(express.json({ limit: '10mb' })); // Limit payload size
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
